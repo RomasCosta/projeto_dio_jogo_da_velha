@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(to bottom,  blue, purple)
+}
+
+h1 {
+  color: white;
+}
+
+.quadrado {
+  text-align: center;
+  width: 50px;
+  background: #eee;
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: #eee;
+}
+
+.jogador, .vencedor {
+  font-size: 30px;
+  margin-top: 18px;
+  color: white;
+}
+
+#vencedor-selecionado, #jogador-selecionado {
+  color: white;
+}
+
+
+button {
+  margin-top: 18px;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  background: #eee;
+  cursor: pointer;
+}
